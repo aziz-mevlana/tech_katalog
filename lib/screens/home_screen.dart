@@ -137,6 +137,26 @@ class _HomeScreenState extends State<HomeScreen> {
                     },
                   ),
                 ),
+
+                  Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 12.0),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(16),
+                    child: Image.asset(
+                      'banner.png',
+                      width: double.infinity,
+                      // height: 140, -> BU SATIRI TAMAMEN SİLİYORUZ
+                      fit: BoxFit.fitWidth, // Resmi kırpmadan genişliğe tam oturtur
+                      errorBuilder: (context, error, stackTrace) {
+                        return Container(
+                          height: 140,
+                          color: Colors.grey[300],
+                          child: const Center(child: Text('Banner Yüklenemedi (pubspec.yaml kontrol et)')),
+                        );
+                      },
+                    ),
+                  ),
+                ),
                 
 
                 SizedBox(
