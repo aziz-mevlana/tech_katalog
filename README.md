@@ -1,17 +1,48 @@
-# tech_katalog
+# 🚀 Tech & Gadget Hub - Modern Katalog Uygulaması
 
-A new Flutter project.
+## 📌 Proje Hakkında
+Bu proje, Flutter eğitim kampı kapsamında geliştirilmiş, modern UI/UX tasarım standartlarına sahip bir mobil e-ticaret/katalog uygulamasıdır. Temel liste mantığının ötesine geçilerek gerçek bir API entegrasyonu ve dinamik sepet yönetimi ile zenginleştirilmiştir.
 
-## Getting Started
+## ✨ Öne Çıkan Özellikler
+- **Gerçek Zamanlı Veri (API):** Fake Store API kullanılarak ürünler internet üzerinden asenkron olarak çekilmektedir.
+- **Akıllı Arama ve Filtreleme:** Kullanıcılar ürün isimlerine göre arama yapabilir ve API'den dinamik olarak çekilen kategorilere göre listeyi filtreleyebilir.
+- **Gelişmiş Sepet Yönetimi:** Aynı ürünler sepette gruplanır, adet artırma/azaltma işlemleri yapılabilir ve anlık toplam tutar hesaplanır.
+- **Modern Arayüz (UI):** Flat Design prensiplerine uygun, gölgesiz ve temiz bir tasarım dili kullanılmıştır. Sayfalar arası geçişler Navigator ile sağlanmıştır.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Kullanılan Teknolojiler
+- **SDK:** Flutter
+- **Dil:** Dart
+- **Paketler:** `http`
+- **Mimari:** StatefulWidget tabanlı State Management
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Ekran Görüntüleri
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+| Ana Sayfa | Detay Sayfası | Sepet Sayfası |
+|:---:|:---:|:---:|
+| *(Görüntü 1)* | *(Görüntü 2)* | *(Görüntü 3)* |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*(Not: Projeyi GitHub'a yükledikten sonra bu README dosyasını düzenleyip ekran görüntülerini yukarıdaki tabloya sürükleyip bırakabilirsiniz.)*
+
+## 🚀 Çalıştırma Adımları
+
+Projeyi kendi ortamınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+
+1. Bu depoyu (repository) bilgisayarınıza klonlayın:
+```bash
+git clone <SİZİN_GITHUB_URL_ADRESİNİZ>
+```
+
+2. Terminal üzerinden proje klasörüne girin:
+```bash
+cd tech_katalog
+```
+
+3. Gerekli Flutter paketlerini indirin:
+```bash
+flutter pub get
+```
+
+4. Uygulamayı bağlı bir emülatörde veya fiziksel cihazda çalıştırın:
+```bash
+flutter run
+```
